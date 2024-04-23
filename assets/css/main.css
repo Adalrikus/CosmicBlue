@@ -57,6 +57,7 @@ a:hover {
 }
 
 .navbar {
+    background-color: #080810;
     position: fixed;          /* Keep it at the top */
     bottom: 0;
     left: 0;
@@ -76,5 +77,6 @@ a:hover {
 .navbar-item a {
     color: #333;              /* Example link color */
     text-decoration: none;
+    padding: 10px;
 }
 
