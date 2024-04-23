@@ -13,6 +13,9 @@ demosite = 'https://adalrikus.github.io/'
 tags = ['blog', 'clean', 'dark', 'minimal']
 features = ['blog', 'shortcode', 'syntax highlighting']
 
+# Syntax highlighting
+pygmentsUseClasses = true
+
 # If the theme has multiple authors
 authors = [
   {name = 'Adilkhan Zarubay', homepage = 'adalrikus.github.io'}
