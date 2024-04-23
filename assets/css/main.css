@@ -1,4 +1,4 @@
-code {
+.chroma code {
     overflow-x: auto;
     white-space: nowrap;
 }
