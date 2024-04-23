@@ -1,0 +1,30 @@
+name = 'CosmicBlue'
+license = 'MIT'
+licenselink = 'https://github.com/Adarlikus/CosmicBlue/LICENSE'
+description = 'Minimalistic theme for Hugo'
+
+# The home page of the theme, where the source can be found
+homepage = 'https://github.com/Adalrikus/CosmicBlue'
+
+# If you have a running demo of the theme
+demosite = 'https://adalrikus.github.io/'
+
+# Taxonomy terms
+tags = ['blog', 'clean', 'dark', 'minimal']
+features = ['blog', 'shortcode', 'syntax highlighting']
+
+# If the theme has multiple authors
+authors = [
+  {name = 'Adilkhan Zarubay', homepage = 'adalrikus.github.io'}
+]
+
+# If the theme has a single author
+[author]
+  name = 'Adilkhan Zarubay'
+  homepage = 'adalrikus.github.io'
+
+# If porting an existing theme
+[original]
+  author = 'Adilkhan Zarubay'
+  homepage = 'adalrikus.github.io'
+  repo = 'https://github.com/adalrikus/minimalism'
