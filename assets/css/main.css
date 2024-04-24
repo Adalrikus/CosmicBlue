@@ -90,3 +90,7 @@ a:hover {
     padding: 10px;
 }
 
+.active {
+    color: #000;
+    background-color: #E4C9CB;
+}
