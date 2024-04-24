@@ -90,7 +90,11 @@ a:hover {
     padding: 10px;
 }
 
-.active {
-    color: #000;
-    background-color: #E4C9CB;
+.navbar-item .active {
+    color: #E4C9CB;
+    font-weight: bold;
+}
+
+.navbar-item .ancestor {
+    color: #E4C9CB;
 }
