@@ -13,7 +13,7 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
   <nav class="navbar">
     <ul class="navbar-list">
-        <li class="navbar-item"><a href="/"{{- if .page.IsMenuCurrent .Menu . }}class="active"{{- end }}><span class="material-symbols-outlined">Home</span></a></li>
+        <li class="navbar-item"><a href="/"><span class="material-symbols-outlined">Home</span></a></li>
         {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>
   </nav>
